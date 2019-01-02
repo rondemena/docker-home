@@ -25,6 +25,10 @@
     {
       "name": "NEED",
       "hidden": false
+    },
+    {
+      "name": "IN_PROGRESS",
+      "hidden": false
     }
   ],
   "code": {
@@ -43,7 +47,8 @@
       "REVIEW",
       "MARK",
       "HELP",
-      "NEED"
+      "NEED",
+      "IN_PROGRESS"
     ]
   },
   "keepEmptyPriority": true,
