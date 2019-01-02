@@ -15,15 +15,15 @@
   },
   "lists": [
     {
-      "name": "HELP",
-      "hidden": false
-    },
-    {
       "name": "NEED",
       "hidden": false
     },
     {
       "name": "IN_PROGRESS",
+      "hidden": false
+    },
+    {
+      "name": "HELP",
       "hidden": false
     },
     {
