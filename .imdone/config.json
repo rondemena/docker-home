@@ -1,36 +1,9 @@
 {
-  "noHelp": true,
-  "sync": {
-    "useImdoneioForPriority": true,
-    "name": "rondemena/docker-home",
-    "id": "5c1802d0ff41cf4043f03044"
-  },
-  "marked": {
-    "langPrefix": "language-",
-    "smartLists": true,
-    "pedantic": false,
-    "breaks": false,
-    "tables": true,
-    "gfm": true
-  },
-  "lists": [
-    {
-      "name": "NEED",
-      "hidden": false
-    },
-    {
-      "name": "IN_PROGRESS",
-      "hidden": false
-    },
-    {
-      "name": "DONE",
-      "hidden": false
-    },
-    {
-      "name": "HELP",
-      "hidden": false
-    }
+  "exclude": [
+    "^(node_modules|bower_components|\\.imdone|target|build|dist|logs|flow-typed|imdone-export.json)[\\/\\\\]?|\\.(git|svn|hg|npmignore)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
   ],
+  "watcher": true,
+  "keepEmptyPriority": true,
   "code": {
     "include_lists": [
       "TODO",
@@ -51,9 +24,36 @@
       "IN_PROGRESS"
     ]
   },
-  "keepEmptyPriority": true,
-  "watcher": true,
-  "exclude": [
-    "^(node_modules|bower_components|\\.imdone|target|build|dist|logs|flow-typed|imdone-export.json)[\\/\\\\]?|\\.(git|svn|hg|npmignore)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
-  ]
+  "lists": [
+    {
+      "name": "NEED",
+      "hidden": false
+    },
+    {
+      "name": "IN_PROGRESS",
+      "hidden": false
+    },
+    {
+      "name": "DONE",
+      "hidden": false
+    },
+    {
+      "name": "HELP",
+      "hidden": false
+    }
+  ],
+  "marked": {
+    "langPrefix": "language-",
+    "smartLists": true,
+    "pedantic": false,
+    "breaks": false,
+    "tables": true,
+    "gfm": true
+  },
+  "sync": {
+    "useImdoneioForPriority": true,
+    "name": "rondemena/docker-home",
+    "id": "5c1802d0ff41cf4043f03044"
+  },
+  "noHelp": true
 }
