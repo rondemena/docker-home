@@ -19,15 +19,15 @@
       "hidden": false
     },
     {
-      "name": "DONE",
-      "hidden": false
-    },
-    {
       "name": "NEED",
       "hidden": false
     },
     {
       "name": "IN_PROGRESS",
+      "hidden": false
+    },
+    {
+      "name": "DONE",
       "hidden": false
     }
   ],
